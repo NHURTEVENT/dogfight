@@ -17,7 +17,7 @@ public class DogfightModel extends Observable implements IDogfightModel{
 	
 	public void removeMobile(IMobile mobile){
 		
-		
+		//
 	}
 	
 	public ArrayList<IMobile> getMobiles(){

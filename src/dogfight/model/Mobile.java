@@ -93,7 +93,7 @@ public class Mobile {
 	}
 	
 	public Image getImage(){
-		
+		//
 	}
 	
 }
