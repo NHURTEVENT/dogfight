@@ -32,3 +32,4 @@ public interface IMobile {
 	
 	public boolean isWeapon();
 }
+//
