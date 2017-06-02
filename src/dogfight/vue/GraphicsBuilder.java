@@ -5,6 +5,9 @@ import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 
 import dogfight.gameframe.IGraphicsBuilder;
+import dogfight.model.DogfightModel;
+import dogfight.model.IDogfightModel;
+import dogfight.model.IMobile;
 
 public class GraphicsBuilder implements IGraphicsBuilder {
 	
@@ -13,8 +16,8 @@ public class GraphicsBuilder implements IGraphicsBuilder {
 
 	public GraphicsBuilder(IDogfightModel dogfightModel){
 		
-		IDogfightModel dogfightModel = new IDogfightModel(); 
-		BufferedImage epmtySky = new BufferedImage(getGlobalWidth(),getGlobalHeight(), 0/*<- int ImageType*/);
+		IDogfightModel dogfightModel2 = new DogfightModel(); //ou alors faut faire un truc avec dogfightmodel
+		BufferedImage epmtySky = new BufferedImage(getGlobalWidth(),getGlobalHeight(),BufferedImage.TYPE_INT_RGB /*<- int ImageType*/);
 		
 	}
 	

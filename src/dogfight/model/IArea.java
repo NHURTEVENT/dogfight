@@ -1,5 +1,7 @@
 package dogfight.model;//
 
+import java.awt.Image;
+
 public interface IArea {
 	
 	public Dimension getDimension();

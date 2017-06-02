@@ -1,6 +1,10 @@
 package dogfight.model;
 
 import dogfight.model.Direction;
+
+import java.awt.Color;
+import java.awt.Image;
+
 import dogfight.model.Dimension;
 import dogfight.model.Position;
 
@@ -8,7 +12,7 @@ public class Mobile {
 	
 	private int speed;
 	private Direction direction;
-	private java.awt.Dimension dimension;
+	private Dimension dimension;
 	private Position position;
 	
 	
@@ -28,20 +32,21 @@ public class Mobile {
 		return this.position;
 	}
 	
-	public void setPosition(){
-		this.position = position;
+	public Dimension getDimension(){
+		return this.dimension;
 	}
+	
 	
 	public int getSpeed(){
 		return this.speed;
 	}
 	
 	public int getWidth(){
-		return this.dimension.getWidth();
+		return (int) this.dimension.getWidth();
 	}
 	
 	public int getHeight(){
-		return this.dimension.getHeight();
+		return (int) this.dimension.getHeight();
 	}
 	
 	public void move(){
@@ -53,7 +58,7 @@ public class Mobile {
 	}
 	
 	public boolean isPlayer(int player){
-		
+		return false;
 	}
 	
 	private void moveUp(){
@@ -73,27 +78,30 @@ public class Mobile {
 	}
 	
 	public Color getColor(){
+		return null;//<Color>;
 		
 	}
 	
 	public IDogfightModel getIDogfightModel(){
-		
+		return null;//<IDogfightModel>;
 	}
 	
-	public void setIDogfightModel(IDoghtfightModel dogfightModel){
+	public void setIDogfightModel(IDogfightModel dogfightModel){
 		
 	}
 	
 	public boolean hit(){
+		return false;
 		
 	}
 	
 	public boolean isWeapon(){
+		return false;
 		
 	}
 	
 	public Image getImage(){
-		//
+		return null;//<Image>;
 	}
 	
 }

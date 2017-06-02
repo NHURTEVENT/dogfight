@@ -3,6 +3,7 @@ package dogfight.vue;
 import java.awt.event.KeyEvent;
 
 import dogfight.controller.IOrderPerformer;
+import dogfight.controller.UserOrder;
 import dogfight.gameframe.IEventPerformer;
 
 public class EventPerformer implements IEventPerformer{
@@ -18,7 +19,7 @@ public class EventPerformer implements IEventPerformer{
 	}
 	
 	private UserOrder keyCodeToUserOrder(int keyCode){
-		return <UserOrder>;
+		return null;//<UserOrder>;
 	}
 	
 }

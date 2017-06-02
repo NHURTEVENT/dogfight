@@ -11,7 +11,7 @@ public class Cloud extends Mobile{
 	public static String IMAGE = "cloud";
 	
 	public Cloud(Direction direction, Dimension dimension){
-		
+		super(direction, new Position(0, 0, 100, 100)/*position random*/ ,dimension, SPEED, IMAGE); //je sais pas faire
 	}
-	
+	//
 }

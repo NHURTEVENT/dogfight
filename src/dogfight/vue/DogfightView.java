@@ -4,6 +4,7 @@ import java.util.Observable;
 
 import dogfight.controller.IOrderPerformer;
 import dogfight.gameframe.GameFrame;
+import dogfight.model.IDogfightModel;
 
 public class DogfightView implements IViewSystem, Runnable {
 	

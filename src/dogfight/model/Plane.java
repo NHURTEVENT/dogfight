@@ -10,8 +10,13 @@ public class Plane extends Mobile{
 	
 	private int player;
 	
+	
+	
 	public Plane(int player, Direction direction, Position position, String image){
 		
+		//j'ai du set une position au pif avec maxX et Y au pif
+		
+		super(direction, new Position(0, 0, 100, 100), new Dimension(WIDTH, HEIGHT), SPEED, "Avion"); //tiens il a pas d'image lui
 	}
 	
 	public boolean isPlayer(int player){

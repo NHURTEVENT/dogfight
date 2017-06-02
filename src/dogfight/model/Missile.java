@@ -14,8 +14,10 @@ public class Missile extends Mobile{
 	
 	private int distanceTraveled =0;
 	
+	
 	public Missile(Direction direction,Dimension dimension){
 		
+		super(direction, new Position(0, 0, 100, 100)/*devant l'avion je suppose*/, dimension, SPEED,IMAGE );
 	}
 	
 	public static int getWidthWithADirection(Direction direction){
